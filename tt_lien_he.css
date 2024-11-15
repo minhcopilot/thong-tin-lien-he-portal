@@ -1,0 +1,112 @@
+body {
+  font-family: "Roboto";
+  background-color: #ffffff;
+}
+.container-1440px {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.contact-header {
+  background: url("./images/bg_tt_lh.png");
+  min-height: 472px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 200px;
+}
+
+.contact-header .contact-header-title {
+  font-size: 30px;
+  font-weight: 500;
+}
+.contact-content {
+  margin-top: -298px;
+  width: 90%;
+  box-shadow: -18px 10px 20px 0 rgba(0, 0, 0, 0.2);
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact-content .contact-content-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #0d4c92;
+}
+.contact-content .info-section-portal {
+  font-size: 14px;
+  padding: 40px;
+  border-radius: 10px 0 0 10px;
+}
+.contact-content .info-section-address {
+  font-size: 14px;
+  background-color: #0d4c92;
+  color: #ffffff;
+  border-radius: 0 10px 10px 0;
+  padding: 40px 40px 40px 25px;
+}
+
+/* Màn hình nhỏ hơn 426px */
+@media screen and (max-width: 425px) {
+  .contact-header .contact-header-title {
+    font-size: 24px;
+  }
+  .contact-content {
+    margin-top: -310px;
+  }
+
+  .contact-content .contact-content-title {
+    font-size: 20px;
+  }
+  .contact-header {
+    margin-bottom: 150px;
+  }
+}
+
+/* Màn hình từ 426px đến 768px */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .contact-header .contact-header-title {
+    font-size: 26px;
+  }
+  .contact-content {
+    margin-top: -285px;
+  }
+  .contact-content .info-section-portal,
+  .contact-content .info-section-address {
+    padding: 25px;
+  }
+  .contact-header {
+    margin-bottom: 180px;
+  }
+}
+
+/* Màn hình từ 769px đến 1024px */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .contact-header .contact-header-title {
+    font-size: 28px;
+  }
+
+  .contact-content .info-section-portal,
+  .contact-content .info-section-address {
+    padding: 30px;
+  }
+}
+
+/* Màn hình lớn hơn 1825px */
+@media screen and (min-width: 1825px) and (max-width: 2305px) {
+  .contact-header {
+    min-height: 600px;
+  }
+  .contact-header .contact-header-title {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 2305px) {
+  .contact-header {
+    min-height: 600px;
+  }
+  .contact-header .contact-header-title {
+    font-size: 36px;
+  }
+}
